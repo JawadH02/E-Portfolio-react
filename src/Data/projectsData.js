@@ -24,7 +24,7 @@ export const projects = [
     description:
       "React App that makes an axios request to the TMDB API in order to search for movies and display their details.",
     gitHubLink: "https://github.com/JawadH02/easyView-app",
-    websiteLink: "https://easyview-movie-api.web.app/",
+    websiteLink: "https://easy-view-app.vercel.app/",
   },
   {
     id: 3,
