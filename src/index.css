@@ -233,6 +233,9 @@ LANDING PAGE
 }
 
 .mail__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 70px;
   height: 70px;
   font-size: 32px;
