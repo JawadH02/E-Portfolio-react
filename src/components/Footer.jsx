@@ -4,6 +4,7 @@ import { FaArrowUp } from "react-icons/fa";
 import { useContext } from "react";
 import { modalContext } from "../Context/ModalContext";
 import Resume from "../assets/images/Resume2022.pdf";
+import { Link } from "react-scroll";
 
 export const Footer = () => {
   const { toggleModal } = useContext(modalContext);
@@ -43,15 +44,15 @@ export const Footer = () => {
             >
               LinkedIn
             </a>
-            <a
-              href="#"
+            <Link
+              to="/"
               onClick={toggleModal}
               className="
                 footer__social--link
                 link__hover-effect link__hover-effect--white"
             >
               Contact
-            </a>
+            </Link>
             <a
               href={Resume}
               target="_blank"
