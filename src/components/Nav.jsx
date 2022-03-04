@@ -85,10 +85,6 @@ export const Nav = () => {
           fpsLimit: 120,
           interactivity: {
             events: {
-              onClick: {
-                enable: true,
-                mode: "push",
-              },
               onHover: {
                 enable: true,
                 mode: "repulse",
@@ -101,9 +97,6 @@ export const Nav = () => {
                 duration: 2,
                 opacity: 0.8,
                 size: 40,
-              },
-              push: {
-                quantity: 4,
               },
               repulse: {
                 distance: 200,
