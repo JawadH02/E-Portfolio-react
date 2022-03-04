@@ -6,10 +6,10 @@ import { Home } from "./Pages/Home";
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const toggleModal = useCallback(() => {
+  const toggleModal = () => {
     isModalOpen ? setIsModalOpen(false) : setIsModalOpen(true);
     window.scroll(0, 0);
-  }, [isModalOpen]);
+  };
 
   useEffect(() => {
     console.log(isModalOpen);
