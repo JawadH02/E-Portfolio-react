@@ -35,10 +35,6 @@ export const Modal = () => {
       );
   });
 
-  useEffect(() => {
-    console.log(isModalOpen);
-  }, [isModalOpen]);
-
   return (
     <section id="modal__section">
       <button className="mail__btn click" onClick={toggleModal}>

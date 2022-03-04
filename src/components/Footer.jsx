@@ -4,7 +4,7 @@ import { FaArrowUp } from "react-icons/fa";
 import { useContext } from "react";
 import { modalContext } from "../Context/ModalContext";
 import Resume from "../assets/images/Resume2022.pdf";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const { toggleModal } = useContext(modalContext);
