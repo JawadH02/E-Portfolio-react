@@ -4,21 +4,11 @@ import { FaAdjust } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { squigglyImages } from "../Data/squigglyImagesData";
 import Particles from "react-tsparticles";
-import { useCallback, useContext, useState } from "react";
+import { useContext } from "react";
 import { modalContext } from "../Context/ModalContext";
 
 export const Nav = () => {
-  const { toggleModal } = useContext(modalContext);
-  const [contrastToggle, setContrastToggle] = useState(true);
-
-  const toggleContrast = useCallback(() => {
-    setContrastToggle((current) => !current);
-    if (contrastToggle) {
-      document.body.classList += " dark-theme";
-    } else {
-      document.body.classList.remove("dark-theme");
-    }
-  }, [contrastToggle]);
+  const { toggleModal, setUV } = useContext(modalContext);
 
   return (
     <section id="nav__section">
@@ -57,7 +47,12 @@ export const Nav = () => {
               Contact
             </Link>
           </li>
-          <li className="nav__link click" onClick={toggleContrast}>
+          <li
+            className="nav__link click"
+            onClick={() =>
+              setUV((prev) => (prev === "dark" ? "light" : "dark"))
+            }
+          >
             <div
               className="
                 nav__link--anchor
