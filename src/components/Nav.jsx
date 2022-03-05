@@ -105,7 +105,7 @@ export const Nav = () => {
             },
             move: {
               enable: true,
-              speed: 4,
+              speed: 3,
             },
             number: {
               density: {
@@ -118,7 +118,7 @@ export const Nav = () => {
             },
             size: {
               random: true,
-              value: 6,
+              value: 5,
             },
           },
         }}
