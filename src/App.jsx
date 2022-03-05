@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useLayoutEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Footer } from "./components/Footer";
 import { modalContext } from "./Context/ModalContext";
 import { Home } from "./Pages/Home";
+import { ProjectsPage } from "./Pages/ProjectsPage";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -33,6 +35,7 @@ function App() {
         <div className={`App ${isModalOpen ? "modal--open" : ""} ${uv}-theme`}>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<ProjectsPage />} />
           </Routes>
         </div>
       </modalContext.Provider>

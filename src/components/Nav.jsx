@@ -77,7 +77,7 @@ export const Nav = () => {
       <Particles
         className="tsparticles"
         options={{
-          fpsLimit: 120,
+          fpsLimit: 60,
           interactivity: {
             events: {
               onHover: {

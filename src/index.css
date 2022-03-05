@@ -181,9 +181,15 @@ nav,
   background-color: #fff;
 }
 
-.dark-theme .mail__btn {
+.dark-theme .mail__btn,
+.dark-theme .header__button {
   background-color: #fff;
   color: #242424;
+}
+
+.dark-theme .header__button:hover {
+  color: #fff;
+  transition: all 300ms ease;
 }
 /* 
 
@@ -584,11 +590,52 @@ PROJECTS
 
 */
 
+.projects__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
 .section__title {
   text-align: center;
   font-size: 48px;
   margin-bottom: 60px;
   color: #242424;
+}
+
+.header__button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: -0.2px;
+  border-style: none;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  z-index: 1;
+  background-color: #242424;
+  border-width: 2px 2px 2px 2px;
+  padding: 20px 40px 20px 40px;
+}
+
+.header__button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ed50f1;
+  transform: translateX(-100%);
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.header__button:hover::before {
+  transform: translateX(0);
 }
 
 .project__img {
@@ -667,7 +714,18 @@ PROJECTS
 
 /* 
 
-PROJECTS 
+PROJECTS PAGE
+
+*/
+
+.header__btn--projects-page {
+  align-self: start;
+  margin-bottom: 60px;
+}
+
+/* 
+
+FOOTER 
 
 */
 
