@@ -1,6 +1,5 @@
 import "../index.css";
 import { projects } from "../Data/projectsData";
-import { FaGithub, FaLink } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Project } from "./ui/Project";
 export const Projects = () => {

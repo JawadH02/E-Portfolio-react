@@ -75,7 +75,6 @@ export const Nav = () => {
         );
       })}
       <Particles
-        className="tsparticles"
         options={{
           fpsLimit: 60,
           interactivity: {
@@ -87,12 +86,6 @@ export const Nav = () => {
               resize: true,
             },
             modes: {
-              bubble: {
-                distance: 400,
-                duration: 2,
-                opacity: 0.8,
-                size: 40,
-              },
               repulse: {
                 distance: 200,
                 duration: 0.4,
@@ -110,36 +103,24 @@ export const Nav = () => {
               opacity: 0.5,
               width: 1,
             },
-            collisions: {
-              enable: true,
-            },
             move: {
-              direction: "none",
               enable: true,
-              outMode: "bounce",
-              random: false,
               speed: 4,
-              straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 900,
               },
-              value: 80,
             },
             opacity: {
               value: 0.5,
             },
-            shape: {
-              type: "circle",
-            },
             size: {
               random: true,
-              value: 5,
+              value: 6,
             },
           },
-          detectRetina: true,
         }}
       />
     </section>

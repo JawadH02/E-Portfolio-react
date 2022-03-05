@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Footer } from "./components/Footer";
 import { modalContext } from "./Context/ModalContext";
 import { Home } from "./Pages/Home";
 import { ProjectsPage } from "./Pages/ProjectsPage";

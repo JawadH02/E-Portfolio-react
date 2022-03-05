@@ -1,13 +1,13 @@
 import "../index.css";
 import { FaEnvelope, FaTimes, FaSpinner } from "react-icons/fa";
 import { modalLanguages } from "../Data/modalLanguagesData";
-import { useCallback, useContext, useEffect, useRef, useState } from "react";
+import { useCallback, useContext, useRef, useState } from "react";
 import { Link } from "react-scroll";
 import { modalContext } from "../Context/ModalContext";
 import emailjs from "@emailjs/browser";
 
 export const Modal = () => {
-  const { toggleModal, isModalOpen } = useContext(modalContext);
+  const { toggleModal } = useContext(modalContext);
   const form = useRef();
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
