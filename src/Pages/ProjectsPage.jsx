@@ -50,7 +50,9 @@ export const ProjectsPage = () => {
               <div
                 key={index}
                 onClick={() => handleProjectFilter(item)}
-                className={`app__projects--filter-item app__flex p-text`}
+                className={`app__projects--filter-item app__flex ${
+                  activeFilter === item ? "item-active" : ""
+                }`}
               >
                 {item}
               </div>
