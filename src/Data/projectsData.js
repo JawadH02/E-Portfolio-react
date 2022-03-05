@@ -9,6 +9,7 @@ export const projects = [
   {
     id: 1,
     name: "E-Commerce Website",
+    // tags: ["Commercial"],
     image: ECommerce,
     techStack: "Html | CSS | JavaScript | React | Git | NPM",
     description:
@@ -19,6 +20,7 @@ export const projects = [
   {
     id: 2,
     name: "EasyView Movies",
+    tags: ["API"],
     image: EasyView,
     techStack: "Html | CSS | JavaScript | React | Git | NPM",
     description:
@@ -29,6 +31,7 @@ export const projects = [
   {
     id: 3,
     name: "Laplace",
+    tags: ["Firebase", "API"],
     image: Laplace,
     techStack: "Material UI | React | Firebase v9 | chartjs | Context API",
     description:
@@ -39,6 +42,7 @@ export const projects = [
   {
     id: 4,
     name: "Cabin",
+    tags: ["Firebase"],
     image: Cabin,
     techStack: "Html | SASS | JavaScript | React | Firebase | Git | NPM",
     description:
@@ -49,6 +53,7 @@ export const projects = [
   {
     id: 5,
     name: "Incredibots: Site for Robotics organisation",
+    tags: ["Commercial"],
     image: Incredibots,
     techStack: "Html | CSS | JavaScript | Git",
     description:
@@ -59,6 +64,7 @@ export const projects = [
   {
     id: 6,
     name: "E-Portfolio for Client",
+    tags: ["Commercial"],
     image: EPortComm,
     techStack: "Html | CSS | JavaScript | Git",
     description:

@@ -4,14 +4,34 @@ import { Project } from "../components/ui/Project";
 import { projects } from "../Data/projectsData";
 import footerLogo from "../assets/images/logo.webp";
 import "../index.css";
+import { useCallback, useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 export const ProjectsPage = () => {
   const navigate = useNavigate();
+  const [project, setProject] = useState(projects);
+  const [filterWork, setFilterWork] = useState(projects);
+  const [activeFilter, setActiveFilter] = useState("All");
+  const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+
+  const handleProjectFilter = useCallback((item) => {
+    setActiveFilter(item);
+    setAnimateCard([{ y: 100, opacity: 0 }]);
+    setTimeout(() => {
+      setAnimateCard([{ y: 0, opacity: 1 }]);
+      if (item === "All") {
+        setFilterWork(project);
+      } else {
+        setFilterWork(project.filter((work) => work.tags?.includes(item)));
+      }
+    }, 500);
+  });
+
   return (
     <section id="projects">
       <div className="container">
         <div className="row">
-          <div className="projects__header">
+          <div className="projects__header projects-page__header">
             <button
               className="header__button header__btn--projects-page click"
               onClick={() => {
@@ -21,15 +41,31 @@ export const ProjectsPage = () => {
             >
               Home
             </button>
-            <h1 className="section__title">
+            <h1 className="section__title projects-page__section-title">
               Projects <span className="blue">List</span>
             </h1>
           </div>
-          <ul className="project__list">
-            {projects.slice(0, 6).map((project) => {
-              return <Project {...project} key={project.id} />;
-            })}
-          </ul>
+          <div className="app__projects--filter">
+            {["Commercial", "Firebase", "API", "All"].map((item, index) => (
+              <div
+                key={index}
+                onClick={() => handleProjectFilter(item)}
+                className={`app__projects--filter-item app__flex p-text`}
+              >
+                {item}
+              </div>
+            ))}
+          </div>
+          <motion.div
+            animate={animateCard}
+            transition={{ duration: 0.5, delayChildren: 0.5 }}
+          >
+            <ul className="project__list">
+              {filterWork.map((project) => {
+                return <Project {...project} key={project.id} />;
+              })}
+            </ul>
+          </motion.div>
         </div>
       </div>
       <footer>

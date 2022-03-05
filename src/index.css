@@ -617,7 +617,6 @@ PROJECTS
   border-radius: 5px;
   z-index: 1;
   background-color: #242424;
-  border-width: 2px 2px 2px 2px;
   padding: 20px 40px 20px 40px;
 }
 
@@ -718,9 +717,42 @@ PROJECTS PAGE
 
 */
 
+.projects-page__header {
+  margin-bottom: 0;
+}
+
 .header__btn--projects-page {
   align-self: start;
   margin-bottom: 60px;
+}
+
+.projects-page__section-title {
+  margin-bottom: 0;
+}
+
+.app__projects--filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0 20px;
+}
+
+.app__projects--filter-item {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  color: #000;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0.5rem;
+}
+
+.app__projects--filter-item:hover {
+  background-color: #ed50f1;
+  color: #fff;
 }
 
 /* 
