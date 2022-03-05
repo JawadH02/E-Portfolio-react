@@ -74,7 +74,7 @@ export const Nav = () => {
           />
         );
       })}
-      <Particles
+      {/* <Particles
         options={{
           fpsLimit: 60,
           interactivity: {
@@ -122,7 +122,7 @@ export const Nav = () => {
             },
           },
         }}
-      />
+      /> */}
     </section>
   );
 };
