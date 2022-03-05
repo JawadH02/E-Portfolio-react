@@ -13,7 +13,7 @@ export const ProjectsPage = () => {
         <div className="row">
           <div className="projects__header">
             <button
-              className="header__button header__btn--projects-page"
+              className="header__button header__btn--projects-page click"
               onClick={() => {
                 navigate("/");
                 window.scroll(0, 0);
