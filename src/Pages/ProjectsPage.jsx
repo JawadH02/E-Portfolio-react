@@ -4,7 +4,7 @@ import { Project } from "../components/ui/Project";
 import { projects } from "../Data/projectsData";
 import footerLogo from "../assets/images/logo.webp";
 import "../index.css";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import { motion } from "framer-motion";
 
 export const ProjectsPage = () => {
