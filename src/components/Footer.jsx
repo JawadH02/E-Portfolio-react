@@ -3,7 +3,7 @@ import footerLogo from "../assets/images/logo.webp";
 import { FaArrowUp } from "react-icons/fa";
 import { useContext } from "react";
 import { modalContext } from "../Context/ModalContext";
-import Resume from "../assets/images/Resume2.pdf";
+import Resume from "../assets/images/Resume.pdf";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
