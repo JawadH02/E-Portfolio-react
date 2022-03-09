@@ -762,6 +762,11 @@ PROJECTS PAGE
   color: #fff;
 }
 
+.dark-theme .item-active {
+  background-color: #ed50f1;
+  color: #fff;
+}
+
 /* 
 
 FOOTER 

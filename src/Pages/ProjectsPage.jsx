@@ -46,7 +46,7 @@ export const ProjectsPage = () => {
             </h1>
           </div>
           <div className="app__projects--filter">
-            {["Commercial", "Firebase", "API", "All"].map((item, index) => (
+            {["All", "Firebase", "API", "Commercial"].map((item, index) => (
               <div
                 key={index}
                 onClick={() => handleProjectFilter(item)}
