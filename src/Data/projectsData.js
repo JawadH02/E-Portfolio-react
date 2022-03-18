@@ -1,6 +1,6 @@
 import ECommerce from "../assets/images/ecommerce.webp";
 import EasyView from "../assets/images/movies.webp";
-import Laplace from "../assets/images/laplace.webp";
+import Laplace from "../assets/images/laplace.png";
 import Cabin from "../assets/images/cabin.webp";
 import Incredibots from "../assets/images/robotics.webp";
 import EPortComm from "../assets/images/eport-client.webp";
