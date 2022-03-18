@@ -1,10 +1,10 @@
-import ECommerce from "../assets/images/ecommerce.svg";
-import EasyView from "../assets/images/movies-app.svg";
-import Laplace from "../assets/images/laplace.svg";
-import Cabin from "../assets/images/Cabin.svg";
-import Incredibots from "../assets/images/robotics.svg";
-import EPortComm from "../assets/images/eport-client.svg";
-import NFTMarketPlace from "../assets/images/nft-market.svg";
+import ECommerce from "../assets/images/ecommerce.webp";
+import EasyView from "../assets/images/movies.webp";
+import Laplace from "../assets/images/laplace.webp";
+import Cabin from "../assets/images/cabin.webp";
+import Incredibots from "../assets/images/robotics.webp";
+import EPortComm from "../assets/images/eport-client.webp";
+import NFTMarketPlace from "../assets/images/nft-market.webp";
 
 export const projects = [
   {
