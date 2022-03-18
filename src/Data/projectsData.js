@@ -51,19 +51,19 @@ export const projects = [
     gitHubLink: "https://github.com/barrybtw/react-blog-app",
     websiteLink: "https://elated-fermat-4587e4.netlify.app/",
   },
+  // {
+  //   id: 5,
+  //   name: "NFT-Marketplace",
+  //   tags: ["React", "Firebase"],
+  //   image: NFTMarketPlace,
+  //   techStack: "Html | SASS | JavaScript | Firebase v9 | React | Git | NPM",
+  //   description:
+  //     "NFT Marketplace perfect template for NFTS marketplace, crypto-collectibles, digital items, non-fungible tokens websites, and more",
+  //   gitHubLink: "https://github.com/JawadH02/nft-marketplace",
+  //   websiteLink: "https://nft-marketplace-ten-sigma.vercel.app/",
+  // },
   {
     id: 5,
-    name: "NFT-Marketplace",
-    tags: ["React", "Firebase"],
-    image: NFTMarketPlace,
-    techStack: "Html | SASS | JavaScript | Firebase v9 | React | Git | NPM",
-    description:
-      "NFT Marketplace perfect template for NFTS marketplace, crypto-collectibles, digital items, non-fungible tokens websites, and more",
-    gitHubLink: "https://github.com/JawadH02/nft-marketplace",
-    websiteLink: "https://nft-marketplace-ten-sigma.vercel.app/",
-  },
-  {
-    id: 6,
     name: "Incredibots: Site for Robotics organisation",
     tags: ["Commercial"],
     image: Incredibots,
@@ -74,7 +74,7 @@ export const projects = [
     websiteLink: "https://jawadh02.github.io/incredibots/",
   },
   {
-    id: 7,
+    id: 6,
     name: "E-Portfolio for Client",
     tags: ["Commercial"],
     image: EPortComm,
