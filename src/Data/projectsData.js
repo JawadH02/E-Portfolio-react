@@ -4,7 +4,7 @@ import Laplace from "../assets/images/laplace.webp";
 import Cabin from "../assets/images/cabin.webp";
 import Incredibots from "../assets/images/robotics.webp";
 import EPortComm from "../assets/images/eport-client.webp";
-import NFTMarketPlace from "../assets/images/nft-market.webp";
+import NFTMarketPlace from "../assets/images/nft-market.webp"; 
 
 export const projects = [
   {
