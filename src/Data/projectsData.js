@@ -1,15 +1,16 @@
-import ECommerce from "../assets/images/E-commerce.webp";
-import EasyView from "../assets/images/Movies_api.webp";
-import Laplace from "../assets/images/Laplace.webp";
-import Cabin from "../assets/images/Blog_app.webp";
-import Incredibots from "../assets/images/incredibots.webp";
-import EPortComm from "../assets/images/E-Portfolio_commercial.webp";
+import ECommerce from "../assets/images/ecommerce.svg";
+import EasyView from "../assets/images/movies-app.svg";
+import Laplace from "../assets/images/laplace.svg";
+import Cabin from "../assets/images/Cabin.svg";
+import Incredibots from "../assets/images/robotics.svg";
+import EPortComm from "../assets/images/eport-client.svg";
+import NFTMarketPlace from "../assets/images/nft-market.svg";
 
 export const projects = [
   {
     id: 1,
     name: "E-Commerce Website",
-    // tags: ["Commercial"],
+    tags: ["React"],
     image: ECommerce,
     techStack: "Html | CSS | JavaScript | React | Git | NPM",
     description:
@@ -20,7 +21,7 @@ export const projects = [
   {
     id: 2,
     name: "EasyView Movies",
-    tags: ["API"],
+    tags: ["API", "React"],
     image: EasyView,
     techStack: "Html | CSS | JavaScript | React | Git | NPM",
     description:
@@ -31,7 +32,7 @@ export const projects = [
   {
     id: 3,
     name: "Laplace",
-    tags: ["Firebase", "API"],
+    tags: ["Firebase", "API", "React"],
     image: Laplace,
     techStack: "Material UI | React | Firebase v9 | chartjs | Context API",
     description:
@@ -42,7 +43,7 @@ export const projects = [
   {
     id: 4,
     name: "Cabin",
-    tags: ["Firebase"],
+    tags: ["Firebase", "React"],
     image: Cabin,
     techStack: "Html | SASS | JavaScript | React | Firebase | Git | NPM",
     description:
@@ -52,6 +53,17 @@ export const projects = [
   },
   {
     id: 5,
+    name: "NFT-Marketplace",
+    tags: ["React", "Firebase"],
+    image: NFTMarketPlace,
+    techStack: "Html | SASS | JavaScript | Firebase v9 | React | Git | NPM",
+    description:
+      "NFT Marketplace perfect template for NFTS marketplace, crypto-collectibles, digital items, non-fungible tokens websites, and more",
+    gitHubLink: "https://github.com/JawadH02/nft-marketplace",
+    websiteLink: "https://nft-marketplace-ten-sigma.vercel.app/",
+  },
+  {
+    id: 6,
     name: "Incredibots: Site for Robotics organisation",
     tags: ["Commercial"],
     image: Incredibots,
@@ -62,7 +74,7 @@ export const projects = [
     websiteLink: "https://jawadh02.github.io/incredibots/",
   },
   {
-    id: 6,
+    id: 7,
     name: "E-Portfolio for Client",
     tags: ["Commercial"],
     image: EPortComm,
