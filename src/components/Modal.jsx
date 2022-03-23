@@ -4,6 +4,7 @@ import { modalLanguages } from "../Data/modalLanguagesData";
 import { useCallback, useContext, useRef, useState } from "react";
 import { Link } from "react-scroll";
 import { modalContext } from "../Context/ModalContext";
+import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 export const Modal = () => {
@@ -37,9 +38,28 @@ export const Modal = () => {
 
   return (
     <section id="modal__section">
-      <button className="mail__btn click" onClick={toggleModal}>
-        <FaEnvelope />
-      </button>
+      <motion.span
+        initial="hidden"
+        animate="visible"
+        variants={{
+          hidden: {
+            scale: 0.8,
+            opacity: 0,
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            x: 0,
+            transition: {
+              delay: 0.4,
+            },
+          },
+        }}
+      >
+        <button className="mail__btn click" onClick={toggleModal}>
+          <FaEnvelope />
+        </button>
+      </motion.span>
       <Link to="projects" className="scroll">
         <div className="scroll__icon click"></div>
       </Link>

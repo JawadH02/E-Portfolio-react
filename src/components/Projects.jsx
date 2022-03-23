@@ -12,7 +12,7 @@ export const Projects = () => {
             <h1 className="section__title">
               Here are some of my <span className="blue">projects</span>
             </h1>
-            {projects.length > 2 && (
+            {projects.length > 3 && (
               <button
                 className="header__button click"
                 onClick={() => {
@@ -25,7 +25,7 @@ export const Projects = () => {
             )}
           </div>
           <ul className="project__list">
-            {projects.slice(0, 2).map((project) => {
+            {projects.slice(0, 3).map((project) => {
               return <Project {...project} key={project.id} />;
             })}
           </ul>

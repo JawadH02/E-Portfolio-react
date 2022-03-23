@@ -4,33 +4,45 @@ import Laplace from "../assets/images/laplace.png";
 import Cabin from "../assets/images/cabin.webp";
 import Incredibots from "../assets/images/robotics.webp";
 import EPortComm from "../assets/images/eport-client.webp";
-import NFTMarketPlace from "../assets/images/nft-market.webp"; 
+import NFTMarketPlace from "../assets/images/nft-market.webp";
+import ExpenseTracker from "../assets/images/expense-tracker.webp";
 
 export const projects = [
   {
     id: 1,
+    name: "NFT-Marketplace",
+    tags: ["React", "Firebase"],
+    image: NFTMarketPlace,
+    techStack: "SASS | Firebase v9 | React | Bootstrap",
+    description:
+      "NFT Marketplace perfect template for NFTS marketplace, crypto-collectibles, digital items, non-fungible tokens websites, and more",
+    gitHubLink: "https://github.com/JawadH02/nft-marketplace",
+    websiteLink: "https://nft-marketplace-ten-sigma.vercel.app/",
+  },
+  {
+    id: 2,
     name: "E-Commerce Website",
     tags: ["React"],
     image: ECommerce,
-    techStack: "Html | CSS | JavaScript | React | Git | NPM",
+    techStack: "JavaScript | React",
     description:
       "React E-commerce app that displays data about popular and recommended books. Has the abililty to filter books and add them to cart for purchase.",
     gitHubLink: "https://github.com/JawadH02/library-react",
     websiteLink: "https://focused-nightingale-f274c0.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "EasyView Movies",
     tags: ["API", "React"],
     image: EasyView,
-    techStack: "Html | CSS | JavaScript | React | Git | NPM",
+    techStack: "JavaScript | React | LocalStorage",
     description:
       "React App that makes an axios request to the TMDB API in order to search for movies and display their details.",
     gitHubLink: "https://github.com/JawadH02/easyView-app",
     websiteLink: "https://easy-view-app.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Laplace",
     tags: ["Firebase", "API", "React"],
     image: Laplace,
@@ -41,29 +53,30 @@ export const projects = [
     websiteLink: "https://laplace-crypto.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
+    name: "Expense Tracker",
+    tags: ["React"],
+    image: ExpenseTracker,
+    techStack:
+      "MongoDB | Express | React | Nodejs | Tailwind CSS | Redux Toolkit | RTK Query | Chartjs",
+    description:
+      "Expense Tracker Using MERN Stack built using a varity of tech stack. Developed for the purpose of keeping track of expenses and visually displaying the statisitcs using chartjs along with percentages calculated using Lodash",
+    gitHubLink: "https://github.com/JawadH02/expense-tracker",
+    websiteLink: "https://expense-tracker-roan.vercel.app/",
+  },
+  {
+    id: 6,
     name: "Cabin",
     tags: ["Firebase", "React"],
     image: Cabin,
-    techStack: "Html | SASS | JavaScript | React | Firebase | Git | NPM",
+    techStack: "SASS | JavaScript | React | Firebase",
     description:
       "Firestore Database Web Application designed with React and Firebase. Developed by an international team of passionate members communicating and organizing code to Github using advanced Git commands. Engineered scalable, responsive, multi-platform code using react js.",
     gitHubLink: "https://github.com/barrybtw/react-blog-app",
     websiteLink: "https://elated-fermat-4587e4.netlify.app/",
   },
-  // {
-  //   id: 5,
-  //   name: "NFT-Marketplace",
-  //   tags: ["React", "Firebase"],
-  //   image: NFTMarketPlace,
-  //   techStack: "Html | SASS | JavaScript | Firebase v9 | React | Git | NPM",
-  //   description:
-  //     "NFT Marketplace perfect template for NFTS marketplace, crypto-collectibles, digital items, non-fungible tokens websites, and more",
-  //   gitHubLink: "https://github.com/JawadH02/nft-marketplace",
-  //   websiteLink: "https://nft-marketplace-ten-sigma.vercel.app/",
-  // },
   {
-    id: 5,
+    id: 7,
     name: "Incredibots: Site for Robotics organisation",
     tags: ["Commercial"],
     image: Incredibots,
@@ -74,7 +87,7 @@ export const projects = [
     websiteLink: "https://jawadh02.github.io/incredibots/",
   },
   {
-    id: 6,
+    id: 8,
     name: "E-Portfolio for Client",
     tags: ["Commercial"],
     image: EPortComm,
