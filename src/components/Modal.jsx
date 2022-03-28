@@ -34,7 +34,7 @@ export const Modal = () => {
           console.log(error.text);
         }
       );
-  });
+  }, [form]);
 
   return (
     <section id="modal__section">
