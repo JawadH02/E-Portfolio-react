@@ -4,23 +4,11 @@ import Laplace from "../assets/images/laplace.png";
 import Cabin from "../assets/images/cabin.webp";
 import Incredibots from "../assets/images/robotics.webp";
 import EPortComm from "../assets/images/eport-client.webp";
-import NFTMarketPlace from "../assets/images/nft-market.webp";
 import ExpenseTracker from "../assets/images/expense-tracker.webp";
 
 export const projects = [
   {
     id: 1,
-    name: "NFT-Marketplace",
-    tags: ["React", "Firebase"],
-    image: NFTMarketPlace,
-    techStack: "SASS | Firebase v9 | React | Bootstrap",
-    description:
-      "NFT Marketplace perfect template for NFTS marketplace, crypto-collectibles, digital items, non-fungible tokens websites, and more",
-    gitHubLink: "https://github.com/JawadH02/nft-marketplace",
-    websiteLink: "https://nft-marketplace-ten-sigma.vercel.app/",
-  },
-  {
-    id: 2,
     name: "E-Commerce Website",
     tags: ["React"],
     image: ECommerce,
@@ -31,7 +19,7 @@ export const projects = [
     websiteLink: "https://focused-nightingale-f274c0.netlify.app/",
   },
   {
-    id: 3,
+    id: 2,
     name: "EasyView Movies",
     tags: ["API", "React"],
     image: EasyView,
@@ -42,9 +30,9 @@ export const projects = [
     websiteLink: "https://easy-view-app.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     name: "Laplace",
-    tags: ["Firebase", "API", "React"],
+    tags: ["Full-Stack", "API", "React"],
     image: Laplace,
     techStack: "Material UI | React | Firebase v9 | chartjs | Context API",
     description:
@@ -53,9 +41,9 @@ export const projects = [
     websiteLink: "https://laplace-crypto.vercel.app",
   },
   {
-    id: 5,
+    id: 4,
     name: "Expense Tracker",
-    tags: ["React"],
+    tags: ["React", "Full-Stack"],
     image: ExpenseTracker,
     techStack:
       "MongoDB | Express | React | Nodejs | Tailwind CSS | Redux Toolkit | RTK Query | Chartjs",
@@ -65,9 +53,9 @@ export const projects = [
     websiteLink: "https://expense-tracker-roan.vercel.app/",
   },
   {
-    id: 6,
+    id: 5,
     name: "Cabin",
-    tags: ["Firebase", "React"],
+    tags: ["Full-Stack", "React"],
     image: Cabin,
     techStack: "SASS | JavaScript | React | Firebase",
     description:
@@ -76,7 +64,7 @@ export const projects = [
     websiteLink: "https://elated-fermat-4587e4.netlify.app/",
   },
   {
-    id: 7,
+    id: 6,
     name: "Incredibots: Site for Robotics organisation",
     tags: ["Commercial"],
     image: Incredibots,
@@ -87,7 +75,7 @@ export const projects = [
     websiteLink: "https://jawadh02.github.io/incredibots/",
   },
   {
-    id: 8,
+    id: 7,
     name: "E-Portfolio for Client",
     tags: ["Commercial"],
     image: EPortComm,
