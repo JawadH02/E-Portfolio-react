@@ -14,7 +14,7 @@ export const Projects = () => {
             </h1>
             {projects.length > 3 && (
               <button
-                className="header__button click"
+                className="header__button"
                 onClick={() => {
                   navigate("/projects");
                   window.scroll(0, 0);

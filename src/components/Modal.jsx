@@ -13,28 +13,31 @@ export const Modal = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const contact = useCallback((event) => {
-    event.preventDefault();
-    setLoading(true);
-    emailjs
-      .sendForm(
-        "service_cbf58to",
-        "template_kt71hbl",
-        form.current,
-        "user_kIMIfbJhdf4ZjlDLVDNqv"
-      )
-      .then(
-        (result) => {
-          setLoading(false);
-          setSuccess(true);
-          console.log(result.text);
-        },
-        (error) => {
-          setSuccess(false);
-          console.log(error.text);
-        }
-      );
-  }, [form]);
+  const contact = useCallback(
+    (event) => {
+      event.preventDefault();
+      setLoading(true);
+      emailjs
+        .sendForm(
+          "service_cbf58to",
+          "template_kt71hbl",
+          form.current,
+          "user_kIMIfbJhdf4ZjlDLVDNqv"
+        )
+        .then(
+          (result) => {
+            setLoading(false);
+            setSuccess(true);
+            console.log(result.text);
+          },
+          (error) => {
+            setSuccess(false);
+            console.log(error.text);
+          }
+        );
+    },
+    [form]
+  );
 
   return (
     <section id="modal__section">
@@ -61,7 +64,25 @@ export const Modal = () => {
         </button>
       </motion.span>
       <Link to="projects" className="scroll">
-        <div className="scroll__icon click"></div>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              scale: 0.8,
+              opacity: 0,
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+              x: 0,
+              transition: {
+                delay: 0.4,
+              },
+            },
+          }}
+          className="scroll__icon click"
+        ></motion.div>
       </Link>
       <div className="modal">
         <div className="modal__half modal__about">

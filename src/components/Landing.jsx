@@ -30,7 +30,18 @@ export const Landing = () => {
       >
         <div className="header__content">
           <h1 className="title">Hey</h1>
-          <h1 className="title blue">I'm Jawad.</h1>
+          <h1 className="title blue">
+          <span className="wave-anim">I</span>
+          <span className="wave-anim">'</span>
+          <span className="wave-anim">m</span>
+          &nbsp;
+          <span className="wave-anim">J</span>
+          <span className="wave-anim">a</span>
+          <span className="wave-anim">w</span>
+          <span className="wave-anim">a</span>
+          <span className="wave-anim">d</span>
+          <span className="wave-anim">.</span>
+          </h1>
           <p className="header__para">
             I'm a{" "}
             <strong className="blue">

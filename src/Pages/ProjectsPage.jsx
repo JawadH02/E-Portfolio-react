@@ -33,7 +33,7 @@ export const ProjectsPage = () => {
         <div className="row">
           <div className="projects__header projects-page__header">
             <button
-              className="header__button header__btn--projects-page click"
+              className="header__button header__btn--projects-page"
               onClick={() => {
                 navigate("/");
                 window.scroll(0, 0);
