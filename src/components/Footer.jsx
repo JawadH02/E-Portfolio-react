@@ -31,7 +31,7 @@ export const Footer = () => {
               target="_blank"
               className="
                 footer__social--link
-                link__hover-effect link__hover-effect--white"
+                link__hover-effect link__hover-effect--white" rel="noreferrer"
             >
               GitHub
             </a>
@@ -40,7 +40,7 @@ export const Footer = () => {
               target="_blank"
               className="
                 footer__social--link
-                link__hover-effect link__hover-effect--white"
+                link__hover-effect link__hover-effect--white" rel="noreferrer"
             >
               LinkedIn
             </a>
@@ -58,7 +58,7 @@ export const Footer = () => {
               target="_blank"
               className="
                 footer__social--link
-                link__hover-effect link__hover-effect--white"
+                link__hover-effect link__hover-effect--white" rel="noreferrer"
             >
               Resume
             </a>

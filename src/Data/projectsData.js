@@ -5,12 +5,13 @@ import Cabin from "../assets/images/cabin.webp";
 import Incredibots from "../assets/images/robotics.webp";
 import EPortComm from "../assets/images/eport-client.webp";
 import ExpenseTracker from "../assets/images/expense-tracker.webp";
+import Airbnb from "../assets/images/airbnb.webp";
 
 export const projects = [
   {
     id: 1,
     name: "E-Commerce Website",
-    tags: ["React"],
+    tags: ["Framework"],
     image: ECommerce,
     techStack: "JavaScript | React",
     description:
@@ -20,8 +21,19 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Reverse Engineered Airbnb",
+    tags: ["Framework", "API"],
+    image: Airbnb,
+    techStack: "Nextjs | Tailwind CSS (+JIT) | Calendar Picker | Mapbox",
+    description:
+      "Reverse Engineered Airbnb web app. SEO-friendly Site is made Fully responsive using tailwind css. Makes fetch request to an API to display locations using Nextjs Static Generation and serverside rendering. Mapbox is utilized for displaying a global map",
+    gitHubLink: "https://github.com/JawadH02/airbnb-clone",
+    websiteLink: "https://airbnb-clone-two-ruddy.vercel.app/",
+  },
+  {
+    id: 3,
     name: "EasyView Movies",
-    tags: ["API", "React"],
+    tags: ["API", "Framework"],
     image: EasyView,
     techStack: "JavaScript | React | LocalStorage",
     description:
@@ -30,9 +42,9 @@ export const projects = [
     websiteLink: "https://easy-view-app.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Laplace",
-    tags: ["Full-Stack", "API", "React"],
+    tags: ["Full-Stack", "API", "Framework"],
     image: Laplace,
     techStack: "Material UI | React | Firebase v9 | chartjs | Context API",
     description:
@@ -41,9 +53,9 @@ export const projects = [
     websiteLink: "https://laplace-crypto.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     name: "Expense Tracker",
-    tags: ["React", "Full-Stack"],
+    tags: ["Framework", "Full-Stack"],
     image: ExpenseTracker,
     techStack:
       "MongoDB | Express | React | Nodejs | Tailwind CSS | Redux Toolkit | RTK Query | Chartjs",
@@ -53,9 +65,9 @@ export const projects = [
     websiteLink: "https://expense-tracker-roan.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Cabin",
-    tags: ["Full-Stack", "React"],
+    tags: ["Full-Stack", "Framework"],
     image: Cabin,
     techStack: "SASS | JavaScript | React | Firebase",
     description:
@@ -64,7 +76,7 @@ export const projects = [
     websiteLink: "https://elated-fermat-4587e4.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Incredibots: Site for Robotics organisation",
     tags: ["Commercial"],
     image: Incredibots,
@@ -75,7 +87,7 @@ export const projects = [
     websiteLink: "https://jawadh02.github.io/incredibots/",
   },
   {
-    id: 7,
+    id: 8,
     name: "E-Portfolio for Client",
     tags: ["Commercial"],
     image: EPortComm,
