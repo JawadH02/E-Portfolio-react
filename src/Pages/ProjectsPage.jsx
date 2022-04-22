@@ -46,7 +46,7 @@ export const ProjectsPage = () => {
             </h1>
           </div>
           <div className="app__projects--filter">
-            {["All", "React", "Full-Stack", "API", "Commercial"].map((item, index) => (
+            {["All", "Framework", "Full-Stack", "API", "Commercial"].map((item, index) => (
               <div
                 key={index}
                 onClick={() => handleProjectFilter(item)}
