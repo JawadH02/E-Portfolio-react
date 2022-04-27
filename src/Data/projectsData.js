@@ -21,17 +21,6 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Reverse Engineered Airbnb",
-    tags: ["Framework", "API"],
-    image: Airbnb,
-    techStack: "Nextjs | Tailwind CSS (+JIT) | Calendar Picker | Mapbox",
-    description:
-      "Reverse Engineered Airbnb web app. SEO-friendly Site is made Fully responsive using tailwind css. Makes fetch request to an API to display locations using Nextjs Static Generation and serverside rendering. Mapbox is utilized for displaying a global map",
-    gitHubLink: "https://github.com/JawadH02/airbnb-clone",
-    websiteLink: "https://airbnb-clone-two-ruddy.vercel.app/",
-  },
-  {
-    id: 3,
     name: "EasyView Movies",
     tags: ["API", "Framework"],
     image: EasyView,
@@ -42,7 +31,7 @@ export const projects = [
     websiteLink: "https://easy-view-app.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     name: "Laplace",
     tags: ["Full-Stack", "API", "Framework"],
     image: Laplace,
@@ -53,7 +42,7 @@ export const projects = [
     websiteLink: "https://laplace-crypto.vercel.app",
   },
   {
-    id: 5,
+    id: 4,
     name: "Expense Tracker",
     tags: ["Framework", "Full-Stack"],
     image: ExpenseTracker,
@@ -65,7 +54,7 @@ export const projects = [
     websiteLink: "https://expense-tracker-roan.vercel.app/",
   },
   {
-    id: 6,
+    id: 5,
     name: "Cabin",
     tags: ["Full-Stack", "Framework"],
     image: Cabin,
@@ -76,7 +65,7 @@ export const projects = [
     websiteLink: "https://elated-fermat-4587e4.netlify.app/",
   },
   {
-    id: 7,
+    id: 6,
     name: "Incredibots: Site for Robotics organisation",
     tags: ["Commercial"],
     image: Incredibots,
@@ -87,7 +76,7 @@ export const projects = [
     websiteLink: "https://jawadh02.github.io/incredibots/",
   },
   {
-    id: 8,
+    id: 7,
     name: "E-Portfolio for Client",
     tags: ["Commercial"],
     image: EPortComm,
