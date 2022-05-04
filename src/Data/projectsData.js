@@ -5,7 +5,6 @@ import Cabin from "../assets/images/cabin.webp";
 import Incredibots from "../assets/images/robotics.webp";
 import EPortComm from "../assets/images/eport-client.webp";
 import ExpenseTracker from "../assets/images/expense-tracker.webp";
-import Airbnb from "../assets/images/airbnb.webp";
 
 export const projects = [
   {

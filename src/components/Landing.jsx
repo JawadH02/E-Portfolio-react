@@ -30,24 +30,9 @@ export const Landing = () => {
       >
         <div className="header__content">
           <h1 className="title">Hey</h1>
-          <h1 className="title blue">
-          <span className="wave-anim">I</span>
-          <span className="wave-anim">'</span>
-          <span className="wave-anim">m</span>
-          &nbsp;
-          <span className="wave-anim">J</span>
-          <span className="wave-anim">a</span>
-          <span className="wave-anim">w</span>
-          <span className="wave-anim">a</span>
-          <span className="wave-anim">d</span>
-          <span className="wave-anim">.</span>
-          </h1>
+          <h1 className="title blue">I'm Jawad.</h1>
           <p className="header__para">
-            I'm a{" "}
-            <strong className="blue">
-              {" "}
-              Freelance Frontend Software Engineer{" "}
-            </strong>
+            I'm a <strong className="blue"> Frontend Software Engineer </strong>
             passionate about delivering great user experiences in web
             applications.
             <br />
@@ -63,7 +48,7 @@ export const Landing = () => {
                   href={link.linkTo}
                   target="_blank"
                   key={link.id}
-                  className="social__link click"
+                  className="social__link click" rel="noreferrer"
                 >
                   {link.icon}
                 </a>

@@ -93,7 +93,7 @@ export const Modal = () => {
             Frontend Software Engineer.
           </h4>
           <p className="modal__para">
-            I'm a 19 year-old{" "}
+            I'm a{" "}
             <strong className="blue">frontend software engineer</strong> living
             in the United States. I am highly motivated with a strong passion
             for learning and building websites that provide a{" "}

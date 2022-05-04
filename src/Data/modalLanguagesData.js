@@ -1,11 +1,11 @@
-import Java from "../assets/images/java.svg";
+import Java from "../assets/images/java.webp";
 import Html from "../assets/images/html.svg";
 import Css from "../assets/images/css.svg";
-import javascript from "../assets/images/javascript.svg";
+import javascript from "../assets/images/javascript.webp";
 import React from "../assets/images/react.svg";
-import sass from "../assets/images/sass.svg";
+import Nextjs from "../assets/images/nextjs.webp";
 import Firebase from "../assets/images/firebase.svg";
-import Git from "../assets/images/git.svg";
+import Tailwindcss from "../assets/images/tailwindcss.webp";
 export const modalLanguages = [
   {
     id: 1,
@@ -39,12 +39,12 @@ export const modalLanguages = [
   },
   {
     id: 6,
-    image: Git,
-    name: "Git",
+    image: Tailwindcss,
+    name: "Tailwindcss",
   },
   {
     id: 7,
-    image: sass,
-    name: "Sass",
+    image: Nextjs,
+    name: "Nextjs",
   },
 ];
