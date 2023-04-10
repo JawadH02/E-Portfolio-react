@@ -89,21 +89,23 @@ export const Modal = () => {
           <h3 className="modal__title modal__title--about">
             Here's a bit about me.
           </h3>
-          <h4 className="modal__sub-title modal__sub-title--about">
-            Frontend Software Engineer.
-          </h4>
-          <p className="modal__para">
-            I'm a{" "}
-            <strong className="blue">frontend software engineer</strong> living
-            in the United States. I am highly motivated with a strong passion
-            for learning and building websites that provide a{" "}
-            <strong className="blue">great user experience.</strong>
-            <br />I currently solve difficult engineering problems by enhancing
-            my understanding of difficult programming concepts including{" "}
+          <br />
+          <p className="modal__para"> As a {" "}
+            <strong className="blue">frontend software engineer</strong> based
+            in the United States, I am skilled in creating engaging user interfaces using modern web technologies such as {" "}
             <strong className="blue">
-              responsive website development, CSS layout, Promises,
+              HTML, CSS, JavaScript/Typescript, and React.
+            </strong>
+            {" "}My skills also include <strong className="blue">API integration</strong> and website performance optimization.
+            <br />
+            <br />
+            With a passion for building intuitive and user-friendly websites, I
+            strive to stay up-to-date with the latest trends and best practices
+            in the field to deliver optimal results for my clients. Additionally, I excel in {" "}
+            <strong className="blue">
+            responsive website development, CSS layout, Promises, and API requests,
             </strong>{" "}
-            and <strong className="blue">API requests</strong>.
+            ensuring that my projects are optimized for a seamless user experience.
           </p>
           <div className="modal__languages">
             {modalLanguages.map((language) => {
