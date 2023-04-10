@@ -29,17 +29,17 @@ export const projects = [
     gitHubLink: "https://github.com/JawadH02/easyView-app",
     websiteLink: "https://easy-view-app.vercel.app/",
   },
-  {
-    id: 3,
-    name: "Laplace",
-    tags: ["Full-Stack", "API", "Framework"],
-    image: Laplace,
-    techStack: "Material UI | React | Firebase v9 | chartjs | Context API",
-    description:
-      "Fully responsive and multi-platform Cryptocurrencies tracker web app. Makes axios request to Coin Gecko API in order to list and graph Cryptocurrencies Data",
-    gitHubLink: "https://github.com/JawadH02/Laplace-crypto",
-    websiteLink: "https://laplace-crypto.vercel.app",
-  },
+  // {
+  //   id: 3,
+  //   name: "Laplace",
+  //   tags: ["Full-Stack", "API", "Framework"],
+  //   image: Laplace,
+  //   techStack: "Material UI | React | Firebase v9 | chartjs | Context API",
+  //   description:
+  //     "Fully responsive and multi-platform Cryptocurrencies tracker web app. Makes axios request to Coin Gecko API in order to list and graph Cryptocurrencies Data",
+  //   gitHubLink: "https://github.com/JawadH02/Laplace-crypto",
+  //   websiteLink: "https://laplace-crypto.vercel.app",
+  // },
   {
     id: 4,
     name: "Expense Tracker",
