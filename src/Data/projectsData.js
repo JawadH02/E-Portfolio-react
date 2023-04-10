@@ -41,19 +41,7 @@ export const projects = [
   //   websiteLink: "https://laplace-crypto.vercel.app",
   // },
   {
-    id: 4,
-    name: "Expense Tracker",
-    tags: ["Framework", "Full-Stack"],
-    image: ExpenseTracker,
-    techStack:
-      "MongoDB | Express | React | Nodejs | Tailwind CSS | Redux Toolkit | RTK Query | Chartjs",
-    description:
-      "Expense Tracker Using MERN Stack built using a varity of tech stack. Developed for the purpose of keeping track of expenses and visually displaying the statisitcs using chartjs along with percentages calculated using Lodash",
-    gitHubLink: "https://github.com/JawadH02/expense-tracker",
-    websiteLink: "https://expense-tracker-roan.vercel.app/",
-  },
-  {
-    id: 5,
+    id: 3,
     name: "Cabin",
     tags: ["Full-Stack", "Framework"],
     image: Cabin,
@@ -64,7 +52,7 @@ export const projects = [
     websiteLink: "https://elated-fermat-4587e4.netlify.app/",
   },
   {
-    id: 6,
+    id: 4,
     name: "Incredibots: Site for Robotics organisation",
     tags: ["Commercial"],
     image: Incredibots,
@@ -75,7 +63,7 @@ export const projects = [
     websiteLink: "https://jawadh02.github.io/incredibots/",
   },
   {
-    id: 7,
+    id: 5,
     name: "E-Portfolio for Client",
     tags: ["Commercial"],
     image: EPortComm,
