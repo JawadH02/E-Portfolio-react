@@ -51,25 +51,25 @@ export const projects = [
     gitHubLink: "https://github.com/barrybtw/react-blog-app",
     websiteLink: "https://elated-fermat-4587e4.netlify.app/",
   },
+  // {
+  //   id: 4,
+  //   name: "Incredibots: Site for Robotics organisation",
+  //   tags: ["Commercial"],
+  //   image: Incredibots,
+  //   techStack: "Html | CSS | JavaScript | Git",
+  //   description:
+  //     "I developed this Responsive and multi-platform site for a client using semantic HTML5 and CSS3 (+BEM). Personal information and content was replaced to maintain privacy.",
+  //   gitHubLink: "https://github.com/JawadH02/incredibots",
+  //   websiteLink: "https://jawadh02.github.io/incredibots/",
+  // },
   {
     id: 4,
-    name: "Incredibots: Site for Robotics organisation",
-    tags: ["Commercial"],
-    image: Incredibots,
-    techStack: "Html | CSS | JavaScript | Git",
-    description:
-      "I developed this Responsive and multi-platform site for a client using semantic HTML5 and CSS3 (+BEM). Personal information and content was replaced to maintain privacy.",
-    gitHubLink: "https://github.com/JawadH02/incredibots",
-    websiteLink: "https://jawadh02.github.io/incredibots/",
-  },
-  {
-    id: 5,
     name: "E-Portfolio for Client",
     tags: ["Commercial"],
     image: EPortComm,
     techStack: "Html | CSS | JavaScript | Git",
     description:
-      "Responsive and multi-platform E-Portfolio built for a local Robotics Org. using semantic HTML5 and CSS3 (+BEM). Personal information and projects were replaced to maintain privacy. Projects were replaced with my own unfinished projects.",
+      "Responsive and multi-platform E-Portfolio. using semantic HTML5 and CSS3 (+BEM). Projects were replaced with my own unfinished projects.",
     gitHubLink: "https://github.com/JawadH02/e-portfolio-clt",
     websiteLink: "https://jawadh02.github.io/e-portfolio-clt/",
   },
