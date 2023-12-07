@@ -22,7 +22,7 @@ function App() {
     return () => {
       localStorage.setItem("uvmode", uv);
     };
-  }, []);
+  }, []); 
 
   useEffect(() => {
     localStorage.setItem("uvmode", uv);
