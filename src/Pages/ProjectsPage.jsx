@@ -25,7 +25,7 @@ export const ProjectsPage = () => {
         setFilterWork(project.filter((work) => work.tags?.includes(item)));
       }
     }, 500);
-  });
+  }, [project]);
 
   return (
     <section id="projects">

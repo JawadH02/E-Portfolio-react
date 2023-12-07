@@ -18,6 +18,7 @@ export const Project = (project) => {
               href={project.gitHubLink}
               target="_blank"
               className="project__description--link"
+              rel="noreferrer"
             >
               <FaGithub />
             </a>
@@ -25,6 +26,7 @@ export const Project = (project) => {
               href={project.websiteLink}
               target="_blank"
               className="project__description--link"
+              rel="noreferrer"
             >
               <FaLink />
             </a>
