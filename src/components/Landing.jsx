@@ -32,7 +32,7 @@ export const Landing = () => {
           <h1 className="title">Hey</h1>
           <h1 className="title blue">I'm Jawad.</h1>
           <p className="header__para">
-            I'm a <strong className="blue"> Frontend Software Engineer </strong>
+            I'm a <strong className="blue">Software Engineer </strong>
             passionate about delivering great user experiences in web
             applications.
             <br />

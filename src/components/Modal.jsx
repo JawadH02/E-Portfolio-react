@@ -91,7 +91,7 @@ export const Modal = () => {
           </h3>
           <br />
           <p className="modal__para"> As a {" "}
-            <strong className="blue">frontend software engineer</strong> based
+            <strong className="blue">software engineer</strong> based
             in the United States, I am skilled in creating engaging user interfaces using modern web technologies such as {" "}
             <strong className="blue">
               HTML, CSS, JavaScript/Typescript, and React.
@@ -101,7 +101,7 @@ export const Modal = () => {
             <br />
             With a passion for building intuitive and user-friendly websites, I
             strive to stay up-to-date with the latest trends and best practices
-            in the field to deliver optimal results for my clients. Additionally, I excel in {" "}
+            in the field to deliver optimal results. Additionally, I excel in {" "}
             <strong className="blue">
             responsive website development, CSS layout, Promises, and API requests,
             </strong>{" "}

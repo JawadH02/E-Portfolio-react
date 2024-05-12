@@ -2,6 +2,7 @@ import ECommerce from "../assets/images/ecommerce.webp";
 import EasyView from "../assets/images/movies.webp";
 import Cabin from "../assets/images/cabin.webp";
 import EPortComm from "../assets/images/eport-client.webp";
+import VConnect from "../assets/images/vconnect.webp";
 
 export const projects = [
   {
@@ -26,6 +27,17 @@ export const projects = [
     gitHubLink: "https://github.com/JawadH02/easyView-app",
     websiteLink: "https://easy-view-app.vercel.app/",
   },
+    {
+    id: 3,
+        name: "VConnect",
+        tags: ["API, Full-Stack", "Framework", "Commercial"],
+        image: VConnect,
+        techStack: "React | Express | Typescript | PostgresQL | Neon | Docker | Lucia Auth",
+        description:
+            "A App I created for a client who was throwing a party for 40+ people on Valentines day. Client needed an app that allowed users to be grouped as couples and play a game of guessing each others answers to predetermined questions. The couple with the highest score wins.",
+        gitHubLink: "https://github.com/JawadH02/valentine-gift-backend",
+        websiteLink: "https://valentine-gift-frontend.vercel.app/",
+    },
   // {
   //   id: 3,
   //   name: "Laplace",
@@ -37,17 +49,17 @@ export const projects = [
   //   gitHubLink: "https://github.com/JawadH02/Laplace-crypto",
   //   websiteLink: "https://laplace-crypto.vercel.app",
   // },
-  {
-    id: 3,
-    name: "Cabin",
-    tags: ["Full-Stack", "Framework"],
-    image: Cabin,
-    techStack: "SASS | JavaScript | React | Firebase",
-    description:
-      "Firestore Database Web Application designed with React and Firebase. Developed by an international team of passionate members communicating and organizing code to Github using advanced Git commands. Engineered scalable, responsive, multi-platform code using react js.",
-    gitHubLink: "https://github.com/barrybtw/react-blog-app",
-    websiteLink: "https://elated-fermat-4587e4.netlify.app/",
-  },
+  //{
+  //  id: 3,
+  //  name: "Cabin",
+  //  tags: ["Full-Stack", "Framework"],
+  //  image: Cabin,
+  //  techStack: "SASS | JavaScript | React | Firebase",
+  //  description:
+  //    "Firestore Database Web Application designed with React and Firebase. Developed by an international team of passionate members communicating and organizing code to Github using advanced Git commands. Engineered scalable, responsive, multi-platform code using react js.",
+  //  gitHubLink: "https://github.com/barrybtw/react-blog-app",
+  //  websiteLink: "https://elated-fermat-4587e4.netlify.app/",
+  //},
   // {
   //   id: 4,
   //   name: "Incredibots: Site for Robotics organisation",
