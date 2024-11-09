@@ -3,7 +3,7 @@ import footerLogo from "../assets/images/logo.webp";
 import { FaArrowUp } from "react-icons/fa";
 import { useContext } from "react";
 import { modalContext } from "../Context/ModalContext";
-import Resume from "../assets/images/Resume.pdf";
+// import Resume from "../../src/assets/images/Resume.pdf";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
@@ -54,7 +54,7 @@ export const Footer = () => {
               Contact
             </Link>
             <a
-              href={Resume}
+              href="/Resume2024.pdf"
               target="_blank"
               className="
                 footer__social--link

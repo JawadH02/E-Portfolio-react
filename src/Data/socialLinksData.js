@@ -1,5 +1,5 @@
 import { FaLinkedinIn, FaGithub, FaFilePdf } from "react-icons/fa";
-import Resume from "../assets/images/Resume.pdf";
+// import Resume from "../../public/Resume.pdf";
 export const socialLinks = [
   {
     id: 1,
@@ -14,6 +14,6 @@ export const socialLinks = [
   {
     id: 3,
     icon: <FaFilePdf />,
-    linkTo: Resume,
+    linkTo: "/Resume2024.pdf",
   },
 ];
