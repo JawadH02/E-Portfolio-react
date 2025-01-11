@@ -54,7 +54,7 @@ export const Footer = () => {
               Contact
             </Link>
             <a
-              href="/Resume2024.pdf"
+              href="/Resume.pdf"
               target="_blank"
               className="
                 footer__social--link
