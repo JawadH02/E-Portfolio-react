@@ -14,6 +14,6 @@ export const socialLinks = [
   {
     id: 3,
     icon: <FaFilePdf />,
-    linkTo: "/Resume.pdf",
+    linkTo: `${process.env.PUBLIC_URL}/Resume2025.pdf`
   },
 ];
